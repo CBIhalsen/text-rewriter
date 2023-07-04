@@ -1,0 +1,11 @@
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Setuptools output
+build/
+dist/
+
+# Other files and directories
+__pycache__/
+*.egg-info/
