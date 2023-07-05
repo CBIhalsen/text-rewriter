@@ -1,46 +1,39 @@
-# README for Python Tool to Rewrite AI-Generated Text
-To create a Python tool that can rewrite AI-generated text, you can follow these steps:
+# 📚 **text-rewriter-python**
 
-1. Install Python3 on your computer if it is not already installed.
-2. Download or clone the repository containing the tool.
-3. Install the necessary libraries by running the following command in your terminal: `pip install nltk textblob`
-4. Open the Python file containing the tool in your preferred code editor.
-5. Import the `nltk` and `textblob` libraries at the beginning of the file.
-6. Copy and paste the `humanize_text` function from the code snippet into your file.
-7. Call the `humanize_text` function with the AI-generated text as the argument.
-8. The function will return the humanized text.
+welcome to the text-rewriter-python repository! this open-source collaboration is designed for anyone to fork and improve.
 
-Here's an example of how to use the tool:
+**description:**
+the `text-rewriter-python` repository is a python project that provides a text rewriting functionality. it aims to create a python tool that can rewrite ai-generated text. by following the provided steps, you can install the tool, import the necessary libraries (`nltk` and `textblob`), and utilize the `humanize_text` function to rewrite the ai-generated text into a more human-like version.
 
-1. Save the code snippet as a Python file, for example `text_rewriter.py`.
-2. Open your terminal and navigate to the directory where the file is saved.
-3. Run the command `python3 text_rewriter.py`.
-4. The program will prompt you to enter the AI-generated text.
-5. Enter the text and press enter.
-6. The program will return the humanized text.
+**contributions:**
+we encourage developers and enthusiasts to contribute to this project in any way they can. whether it's improving the text rewriting algorithms, enhancing the user interface, or adding new features, your contributions are highly appreciated! to contribute, you can fork the repository and submit a pull request with your changes.
 
-Here's an example of how the program will look like:
+**license:**
+this project is licensed under the mit license. see the license file for details.
+
+this tool utilizes the natural language toolkit (nltk) and textblob libraries, which make natural language processing in python accessible to everyone. we extend our gratitude to the developers of these libraries for their valuable contributions.
+
+repository structure:
+- readme.md
+- text_rewriter.py
+
+to get started with the tool, follow these steps:
+
+1. install python 3 on your computer if it's not already installed.
+2. download or clone the repository.
+3. install the required libraries by running `pip install nltk textblob` in your terminal.
+4. open the python file (`text_rewriter.py`) in your preferred code editor.
+5. import the `nltk` and `textblob` libraries at the beginning of the file.
+6. copy and paste the `humanize_text` function from the code snippet into your file.
+7. call the `humanize_text` function with the ai-generated text as the argument.
+8. the function will return the humanized text.
+
+here's an example of how to use the tool:
 
 ```
 $ python3 text_rewriter.py
-Enter AI-generated text: The quick brown fox jumped over the lazy dog.
-The amazing brown fox really jumped over the lazy dog.
+enter ai-generated text: the quick brown fox jumped over the lazy dog.
+the amazing brown fox really jumped over the lazy dog.
 ```
 
-The repository structure should look like this:
-
-- README.md
-- text_rewriter.py
-
-To contribute to this project, you can fork the repository and submit a pull request with your changes.
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-This tool was created using the Natural Language Toolkit (NLTK) and TextBlob libraries. Special thanks to the developers of these libraries for making natural language processing in Python accessible to everyone.
-
-Citations:
-[1] https://www.activestate.com/blog/how-to-use-ai-to-write-code-for-you/
-[2] https://medium.com/pythoneers/use-ai-to-generate-text-with-3-lines-of-python-code-190aa30f3ac4
-[3] https://docs.python.org/3/library/text.html
-[4] https://simonwillison.net
-[5] https://towardsdatascience.com/text-generation-with-python-and-gpt-2-1fecbff1635b
+we appreciate your interest and contributions to the `text-rewriter-python` project. feel free to reach out if you have any questions or need further assistance.
